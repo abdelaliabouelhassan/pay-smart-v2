@@ -1,0 +1,129 @@
+<template>
+  <section class="w-full flex bg-white dark:bg-[#161616] pb-10 md:pb-24 pt-24 font-Inter">
+    <div class="m-auto w-full max-w-[1150px] flex relative p-6">
+      <div class=" m-auto flex lg:flex-row flex-col items-start space-y-4 lg:space-y-0 lg:items-center lg:space-x-10">
+        <div class="flex flex-col items-start space-y-4 lg:space-y-10 ">
+          <div
+            class="
+              hover:bg-white
+              border
+              dark:bg-[#26272C] dark:border-[#343434]
+              rounded-3xl
+              border-[#EEEEEE]
+              hover:shadow-card
+              cursor-pointer w-full lg:w-auto md:shadow-none shadow-card
+              p-5
+            "
+          >
+            <div class="flex items-start space-x-5">
+              <div
+                class="
+                  bg-[#0054B8]
+                  dark:bg-[#3A495C]
+                  w-[50px]
+                  h-[50px]
+                  rounded-full
+                  flex
+                "
+              >
+                <span class="m-auto text-2xl font-semibold text-white">01</span>
+              </div>
+              <div class="flex flex-col items-start space-y-2 md:max-w-[393px]">
+                <span
+                  class="text-2xl font-semibold dark:text-white text-[#1B2C42]  leading-[36px] max-w-[221px] md:max-w-max"
+                  >{{$t('message.CommonQuestions') }}</span
+                >
+                <p
+                  class="md:text-lg text-sm leading-[24px] md:leading-[30px] font-medium dark:text-[#C3C8CD] dark:md:text-[#A9AFB7]  text-[#616C7C] max-w-[221px] md:max-w-max"
+                >
+                {{$t('message.CommonQuestionsDesc') }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="
+              hover:bg-white
+              border
+              dark:bg-[#26272C] dark:border-[#343434]
+              rounded-3xl
+              border-[#EEEEEE]
+              hover:shadow-card
+              p-5
+              cursor-pointer
+            "
+          >
+            <div class="flex items-start space-x-5">
+              <div
+                class="
+                  bg-[#0054B8]
+                  dark:bg-[#3A495C]
+                  w-[50px]
+                  h-[50px]
+                  rounded-full
+                  flex
+                "
+              >
+                <span class="m-auto text-2xl font-semibold text-white">02</span>
+              </div>
+              <div class="flex flex-col items-start space-y-2 max-w-[393px]">
+                <span
+                  class="text-2xl font-semibold dark:text-white text-[#1B2C42]  leading-[36px]"
+                  >{{$t('message.InterviewProcess') }}</span
+                >
+                <p
+                   class="md:text-lg text-sm leading-[24px] md:leading-[30px] font-medium dark:text-[#C3C8CD] dark:md:text-[#A9AFB7]  text-[#616C7C] max-w-[221px] md:max-w-max"
+                >
+                {{$t('message.InterviewProcessDesc') }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col items-start space-y-10 ">
+          <div
+            class="
+              hover:bg-white
+              border
+              dark:bg-[#26272C] dark:border-[#343434]
+              rounded-3xl
+              border-[#EEEEEE]
+              hover:shadow-card
+              p-5
+              cursor-pointer
+            "
+          >
+            <div class="flex items-start space-x-5">
+              <div
+                class="
+                  bg-[#0054B8]
+                  dark:bg-[#3A495C]
+                  w-[50px]
+                  h-[50px]
+                  rounded-full
+                  flex
+                "
+              >
+                <span class="m-auto text-2xl font-semibold text-white">03</span>
+              </div>
+              <div class="flex flex-col items-start space-y-2 max-w-[393px]">
+                <span
+                 class="text-2xl font-semibold dark:text-white text-[#1B2C42]  leading-[36px] max-w-[221px] md:max-w-max"
+                  >{{$t('message.HiringPrivacyPolicy') }}</span
+                >
+                <p
+                   class="md:text-lg text-sm leading-[24px] md:leading-[30px] font-medium dark:text-[#C3C8CD] dark:md:text-[#A9AFB7]  text-[#616C7C] max-w-[221px] md:max-w-max"
+                >
+                {{$t('message.HiringPrivacyPolicyDesc') }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+
+
